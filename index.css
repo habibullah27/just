@@ -1,0 +1,148 @@
+/* 
+==========================================
+akane sign up a font family changr korte hobe
+
+========================================== */
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+*{
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  
+}
+body{
+  background-color: rgb(31, 27, 27);
+}
+form{
+  width: 310px;
+  height: 514px;
+  margin: 100px auto;
+  background-color: rgb(32, 28, 28);
+  box-shadow: -3px -2px 8px rgb(42 42 42);
+  border-radius: 10px;
+  text-align: center;
+}
+form h2{
+  color: white;
+  margin: 0px auto;
+  padding: 26px 0px;
+  color: yellow;
+  font-size: 40px;
+  font-family: 'Courgette', cursive;
+}
+.pp{
+  color: yellow;
+  margin: 10 auto;
+  margin-bottom: 10px;
+  font-size: 25px;
+}
+
+form  p{
+  color: yellow;
+  margin: 0 auto;
+  margin-bottom: 10px;
+  font-size: 15px;
+}
+
+form input{
+  padding: 9px 11px;
+  border-radius: 30px;
+  border: none;
+  outline: none;
+  font-size: 19px;
+  background-color: yellow;
+  margin-bottom: 10px;
+}
+
+input::placeholder{
+  background-color: yellow;
+  font-size: 17px;
+}
+
+#btnfor{
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.signup-btn{
+  background-color: yellow;
+  padding: 7px 16px;
+  outline: none;
+  border: none;
+  border-radius: 20px;
+  margin-top: 7px;
+  font-weight: 600;
+  font-size: 17px;
+  color: rgb(80, 80, 4);
+  cursor: pointer;
+  width: 130px;
+  transition: 0.3s;
+}
+
+.signup-btn:hover{
+  background-color: rgb(216, 216, 7);
+}
+
+span{
+  display: block;
+  color: yellow;
+  font-size: 15px;
+  padding: 20px 0px;
+}
+/* ================= Link ========= */
+
+.sign{
+  color: yellow;
+  margin: 0 auto;
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+.fab{
+color: yellow;
+font-size: 26px;
+margin-right: 15px;
+transition: 0.3s;
+border-radius: 100%;
+margin-top: 15px;
+margin-bottom: 10px;
+}
+.fab:hover{
+  color: rgb(196, 199, 0);
+  transform: scale(1.1);
+}
+
+/* ===================================
+  responsive for mobail
+=================================== */
+
+@media screen  and (max-width:300px){
+  form{
+    width: 90%;
+    height:auto ;
+    padding-bottom:20px ;
+  }
+
+  .pp{
+    font-size: 20px;
+  }
+
+  form input{
+    width: 80%;
+    font-size: 17px;
+  }
+  #btnfor{
+        font-size: 17px;
+  }
+  .signup-btn{
+    font-size: 16px;
+    width: 50%;
+  }
+  .sign{
+    font-size: 16px;
+  }
+
+  .fab{
+    font-size: 20px;
+    margin-right: 11px;
+    }
+}
